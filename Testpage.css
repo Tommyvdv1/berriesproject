@@ -1,0 +1,10 @@
+body {
+	background: linear-gradient(to right, yellow, red);
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	color: #929292;
+}
+
