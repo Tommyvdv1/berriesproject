@@ -40,24 +40,30 @@ function RandomGradient() {
 
 // function sortlist() {
 
-// 	let array2 = [1];
+// 	let array2 = [];
+//      let array1 = [numbers[0]];
 
-// for (var i =0; i< numbers.length-1; i++)
+// for (var i =1; i< numbers.length; i++)
 // {
-// 	let array1 = [];
-// 	console.log(array1);
 	
-// 	if (numbers[i]===numbers[i+1])
+// 	if (numbers[i-1]===numbers[i])
 // 	{
 // 		array1.push(numbers[i]);
-// 		array1.push(numbers[i+1]);
-// 		array2.pop();
-// 		array2.push(array1);
 // 		console.log(array1);
 // 	}
+//      else if (i===1)
+//      {
+//             array1 = [];
+//              array1.push(numbers[i]);
+// 		array2.push(numbers[i]);
+// 		console.log(array2);
+//      }
 // 	else 
 // 	{
-// 		array2.push(numbers[i+1]);
+//              array2.push(array1);
+//              array1 = [];
+//              array1.push(numbers[i]);
+// 		array2.push(numbers[i]);
 // 		console.log(array2);
 // 	}
 
